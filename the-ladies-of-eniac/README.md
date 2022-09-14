@@ -1,0 +1,17 @@
+# The Ladies of ENIAC
+
+ - URL:[https://www.codewars.com/kata/56d31aaefd3a52902a000d66](https://www.codewars.com/kata/56d31aaefd3a52902a000d66)
+ - Id: 56d31aaefd3a52902a000d66
+ - Language: python
+ - Completed on: 2017-01-21T15:25:27.111Z
+ - Tags: Strings,Regular Expressions,Fundamentals
+ - Description:
+Comprised of a team of five incredibly brilliant women, "The ladies of ENIAC" were the first “computors” working at the University of Pennsylvania’s Moore School of Engineering (1945). Through their contributions, we gained the first software application and the first programming classes! The ladies of ENIAC were inducted into the WITI Hall of Fame in 1997!
+
+Write a function which reveals "The ladies of ENIAC" names, so that you too can add them to your own hall of tech fame!
+
+To keep: only alpha characters, space characters and exclamation marks.  
+To remove: numbers and these characters: ```%$&/£?@```
+
+Result should be all in uppercase.
+
