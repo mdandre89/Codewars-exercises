@@ -1,0 +1,1 @@
+select MIN(score), (SELECT PERCENTILE_CONT(0.5) WITHIN GROUP(ORDER by score) FROM result) as median,MAX(score) FROM result;
