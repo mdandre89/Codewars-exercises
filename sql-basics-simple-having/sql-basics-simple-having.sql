@@ -1,0 +1,1 @@
+SELECT age, count(age) as total_people FROM people GROUP BY age HAVING count(age) >= 10;
