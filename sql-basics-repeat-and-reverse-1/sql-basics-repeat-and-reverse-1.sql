@@ -1,0 +1,1 @@
+SELECT Name||Name||Name as name,reverse(characteristics) as characteristics  FROM monsters 
