@@ -1,0 +1,29 @@
+# Russian Peasant Multiplication
+
+ - URL:[https://www.codewars.com/kata/5870ef72aa04283934000043](https://www.codewars.com/kata/5870ef72aa04283934000043)
+ - Id: 5870ef72aa04283934000043
+ - Language: python
+ - Completed on: 2017-02-13T14:31:32.385Z
+ - Tags: Fundamentals
+ - Description:
+The "Russian Peasant Method" is an old algorithm used by Russian peasants (and before them ancient Egyptians) to perform multiplication.  Consider that X and Y are two numbers.  X can be any number but Y must be a positive integer. To multiply X and Y:
+
+1. Let the product = 0
+2. If Y is odd, then the product = product + X
+3. X = X + X
+4. Y = integer part of Y / 2 
+5. if Y is nonzero, repeat from step 2; otherwise the algorithm terminates and returns the product.
+
+For example:
+
+Let X = 10
+
+Let Y = 5
+
+X: 10 20 40 80
+
+Y: 5  2  1  0
+
+product = 10 + 40 = 50
+
+Note: usage of multiplication is of course forbidden...
