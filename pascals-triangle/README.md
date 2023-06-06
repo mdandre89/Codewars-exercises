@@ -1,0 +1,38 @@
+# Pascal's Triangle
+
+ - URL:[https://www.codewars.com/kata/5226eb40316b56c8d500030f](https://www.codewars.com/kata/5226eb40316b56c8d500030f)
+ - Id: 5226eb40316b56c8d500030f
+ - Language: javascript
+ - Completed on: 2017-08-21T17:30:12.326Z
+ - Tags: Arrays,Mathematics,Algorithms
+ - Description:
+In mathematics, Pascal's triangle is a triangular array of the binomial coefficients expressed with formula
+
+```math
+\lparen {n \atop k} \rparen = \frac {n!} {k!(n-k)!}
+```
+
+where `n` denotes a row of the triangle, and `k` is a position of a term in the row.
+
+![Pascal's Triangle](http://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+
+You can read [Wikipedia article on Pascal's Triangle](http://en.wikipedia.org/wiki/Pascal's_triangle) for more information.
+
+### Task
+
+Write a function that, given a depth `n`, returns `n` top rows of Pascal's Triangle flattened into a one-dimensional list/array. 
+
+### Example:
+
+```
+n = 1: [1]
+n = 2: [1,  1, 1]
+n = 4: [1,  1, 1,  1, 2, 1,  1, 3, 3, 1]
+```
+
+```if-not:python,ruby
+### Note
+
+Beware of overflow. Requested terms of a triangle are guaranteed to fit into the returned type, but depending on seleced method of calculations, intermediate values can be larger.
+```
+
