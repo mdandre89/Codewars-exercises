@@ -1,0 +1,1 @@
+const arr = N => N > 0 ? new Array(N).fill(0).map((i,j)=> j): [];
