@@ -1,0 +1,1 @@
+SELECT ||/ number1 as cuberoot,ln(number2) as logarithm FROM decimals 
