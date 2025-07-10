@@ -1,0 +1,25 @@
+# Convert a String to a Number!
+
+ - URL:[https://www.codewars.com/kata/544675c6f971f7399a000e79](https://www.codewars.com/kata/544675c6f971f7399a000e79)
+ - Id: 544675c6f971f7399a000e79
+ - Language: javascript
+ - Completed on: 2017-01-10T17:23:45.515Z
+ - Tags: Parsers,Strings,Fundamentals
+ - Description:
+Note: This kata is inspired by [Convert a Number to a String!](http://www.codewars.com/kata/convert-a-number-to-a-string/). Try that one too.
+
+## Description
+
+We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+
+## Examples
+```
+"1234" --> 1234
+"605"  --> 605
+"1405" --> 1405
+"-7" --> -7
+```
+
+
