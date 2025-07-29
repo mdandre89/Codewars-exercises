@@ -1,0 +1,1 @@
+SELECT * from students  WHERE NOT tuition_received 
