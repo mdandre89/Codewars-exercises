@@ -1,0 +1,1 @@
+f=lambda i,n:(len(i)>n)*len(i);
