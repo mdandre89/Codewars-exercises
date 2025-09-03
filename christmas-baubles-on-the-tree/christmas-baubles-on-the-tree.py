@@ -1,0 +1,2 @@
+def baubles_on_tree(baubles, branches):
+    return [(baubles//branches) + 1 if i < baubles%branches else (baubles//branches) for i in range(branches)]  if branches !=0 else "Grandma, we will have to buy a Christmas tree first!"
